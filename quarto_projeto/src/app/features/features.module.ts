@@ -10,6 +10,9 @@ import { ListagemComponent } from './colaboradores/listagem/listagem.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    ListagemComponent
   ]
 })
 export class FeaturesModule { }
