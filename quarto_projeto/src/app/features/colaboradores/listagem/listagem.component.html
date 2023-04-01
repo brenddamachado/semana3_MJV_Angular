@@ -1,15 +1,15 @@
-<section class="colabs">
+<section class="cards">
     <h1>{{title}}</h1>
     
     <div class="card-container">
-        <div class="card" *ngFor="let colab of colab">
+        <div class="card" *ngFor="let card of card">
             <div class="avatar">
-                <img src="{{colab.img}}" alt="Avatar">
+                <img src="{{card.img}}" alt="Avatar">
             </div>
             <div class="details">
-                <h2>{{colab.nome}}</h2>
-                <p>{{colab.cargo}}</p>
-                <p>{{colab.empresa}}</p>
+                <h2>{{card.nome}}</h2>
+                <p>{{card.cargo}}</p>
+                <p>{{card.empresa}}</p>
             </div>
           
         </div>
