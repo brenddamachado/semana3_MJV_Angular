@@ -1,1 +1,17 @@
-<p>listagem works!</p>
+<section class="colabs">
+    <h1>{{title}}</h1>
+    
+    <div class="card-container">
+        <div class="card" *ngFor="let colab of colab">
+            <div class="avatar">
+                <img src="{{colab.img}}" alt="Avatar">
+            </div>
+            <div class="details">
+                <h2>{{colab.nome}}</h2>
+                <p>{{colab.cargo}}</p>
+                <p>{{colab.empresa}}</p>
+            </div>
+          
+        </div>
+    </div>
+</section>
